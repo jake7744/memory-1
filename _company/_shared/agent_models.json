@@ -1,0 +1,10 @@
+{
+  "youtube": "qwen3.5-9b-deepseek-v4-flash",
+  "instagram": "qwen3.5-9b-deepseek-v4-flash",
+  "designer": "qwen3-14b-claude-4.5-opus-high-reasoning-distill",
+  "developer": "qwen3.5-9b-deepseek-v4-flash",
+  "business": "qwen3.5-9b-deepseek-v4-flash",
+  "secretary": "google/gemma-4-e4b",
+  "editor": "qwen3.5-9b-deepseek-v4-flash",
+  "writer": "qwen3.5-9b-deepseek-v4-flash"
+}
