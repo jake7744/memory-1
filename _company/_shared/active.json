@@ -33,5 +33,9 @@
     "activatedAt": "2026-05-14T01:29:00.408Z",
     "seeded_v3": true
   },
-  "_migrated_v3": true
+  "_migrated_v3": true,
+  "shalala": {
+    "activatedAt": "2026-05-31T08:37:55.455Z"
+  },
+  "_migrated_v4": true
 }
