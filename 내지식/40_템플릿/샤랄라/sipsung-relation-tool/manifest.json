@@ -1,0 +1,53 @@
+{
+  "name": "Sipsung Relationship Tool",
+  "description": "일간과 천간/지지 대상 글자의 오행, 음양, 생극 방향, 십성 및 지장간 십성을 결정론적으로 계산하는 사주 명리 도구입니다.",
+  "keywords": [
+    "십성",
+    "십신",
+    "육친",
+    "오행",
+    "음양",
+    "지장간",
+    "일간",
+    "일운",
+    "시운",
+    "대운",
+    "세운",
+    "월운",
+    "현재 날짜",
+    "사주 계산",
+    "명리 도구"
+  ],
+  "base": "python-stdlib",
+  "tested_with": [
+    "Python 3.11+",
+    "Connect AI workspace skill injection"
+  ],
+  "components": [
+    "saju_sipsung_rules.py",
+    "saju_sipsung_cli.py",
+    "saju_luck_config.example.json",
+    "saju_daily_luck.py",
+    "saju_daily_luck_cli.py",
+    "saju_feedback_store.py",
+    "saju_feedback_analyzer.py",
+    "saju_feedback_cli.py",
+    "saju_twelve_stages.py",
+    "saju_twelve_stages_cli.py",
+    "saju_twelve_spirits.py",
+    "saju_interactions.py",
+    "saju_vector_model.py",
+    "saju_vector_model_cli.py",
+    "saju_matrix_analyzer.py",
+    "saju_matrix_analyzer_cli.py",
+    "saju_sipsung_langchain_tool.py",
+    "test_saju_sipsung_rules.py",
+    "test_saju_daily_luck.py",
+    "test_saju_twelve_stages.py",
+    "test_saju_matrix.py",
+    "test_saju_vector_model.py",
+    "test_saju_feedback.py"
+  ],
+  "update_safe": true,
+  "notes": "앱 설치 폴더를 수정하지 않고 Connect AI 워크스페이스의 내지식 템플릿으로 동작하도록 설계했습니다."
+}

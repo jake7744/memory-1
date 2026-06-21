@@ -1,0 +1,23 @@
+{
+  "profile_name": "샤랄라 실제 기본 세팅",
+  "timezone": "Asia/Seoul",
+  "polarity_mode": "cheyong",
+  "branch_mode": "hidden_all",
+  "hour_boundary": "23:30",
+  "day_pillar_anchor": {
+    "date": "2026-06-07",
+    "pillar": "壬子",
+    "note": "실제 만세력 이미지 기준과 60일 주기로 연결되는 일진 기준점입니다."
+  },
+  "natal": {
+    "year": "癸丑",
+    "month": "丙辰",
+    "day": "辛丑",
+    "hour": "甲午"
+  },
+  "luck": {
+    "daewoon": "壬戌",
+    "year": "丙午",
+    "month": "甲午"
+  }
+}

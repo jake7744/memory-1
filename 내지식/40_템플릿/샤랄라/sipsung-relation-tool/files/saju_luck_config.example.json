@@ -1,0 +1,24 @@
+{
+  "profile_name": "샤랄라 기본 세팅",
+  "timezone": "Asia/Seoul",
+  "polarity_mode": "cheyong",
+  "branch_mode": "hidden_all",
+  "hour_boundary": "23:30",
+  "day_pillar_anchor": {
+    "date": "2026-06-07",
+    "pillar": "壬子",
+    "note": "첨부 자료에서 2026-06-07을 壬子일로 사용한 기준점입니다."
+  },
+  "natal": {
+    "year": "癸丑",
+    "month": "戊辰",
+    "day": "辛酉",
+    "hour": "甲午"
+  },
+  "luck": {
+    "daewoon": "壬戌",
+    "year": "丙午",
+    "month": "甲午"
+  }
+}
+

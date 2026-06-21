@@ -1,0 +1,33 @@
+{
+  "name": "Current Datetime Tool",
+  "description": "샤랄라가 오늘 날짜, 현재 시간, 방금, 아까 같은 시간 기준 질문에 답할 때 추정하지 않고 로컬 Asia/Seoul 현재 시각 도구를 사용하도록 하는 전용 스킬입니다.",
+  "keywords": [
+    "오늘",
+    "오늘 날짜",
+    "오늘 며칠",
+    "오늘 몇일",
+    "오늘 몇 일",
+    "현재 날짜",
+    "현재 시간",
+    "지금",
+    "지금 몇시",
+    "지금 몇 시",
+    "몇시",
+    "몇 시",
+    "방금",
+    "아까",
+    "일운",
+    "시운"
+  ],
+  "base": "python-stdlib",
+  "tested_with": [
+    "Python 3.11+",
+    "Connect AI workspace skill injection"
+  ],
+  "components": [
+    "saju_datetime_tool.py",
+    "saju_datetime_cli.py"
+  ],
+  "update_safe": true,
+  "notes": "Connect AI 설치 폴더를 수정하지 않고 사용자 workspace 스킬로만 동작합니다."
+}
