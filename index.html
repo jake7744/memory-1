@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>피보나치 수열 생성기</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        #nInput {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            width: 80px;
+            text-align: center;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #resultContainer h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 30px;
+            color: #555;
+        }
+        #fibList {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 6px;
+            word-break: break-all; /* 긴 숫자 줄바꿈 처리 */
+            font-family: monospace;
+            white-space: pre-wrap; /* 공백 및 개행 유지 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔢 피보나치 수열 생성기</h1>
+
+        <div class="input-group">
+            <label for="nInput">원하는 항의 개수 (N):</label>
+            <input type="number" id="nInput" value="8" min="1" max="100">
+            <button onclick="generateFibonacci()">계산하기</button>
+        </div>
+
+        <div id="resultContainer">
+            <h2>결과</h2>
+            <p>입력된 항의 개수를 기준으로 피보나치 수열이 여기에 표시됩니다.</p>
+            <pre id="fibList"></pre>
+        </div>
+    </div>
+
+    <script>
+        /**
+         * 주어진 N개 항까지의 피보나치 수열을 계산하여 결과를 출력합니다.
+         */
+        function generateFibonacci() {
+            const nInput = document.getElementById('nInput');
+            let N = parseInt(nInput.value);
+
+            // 유효성 검사
+            if (isNaN(N) || N <= 0) {
+                document.getElementById('fibList').textContent = "오류: 항의 개수는 1 이상의 정수여야 합니다.";
+                return;
+            }
+
+            let sequence = [];
+            
+            // N이 1일 때 [0]을 반환하고, N >= 2일 때 일반 로직 적용
+            if (N === 1) {
+                sequence = [0];
+            } else if (N >= 2) {
+                sequence = [0, 1];
+                // 이미 두 개의 항(0과 1)이 있으므로, N-2 번 반복합니다.
+                for (let i = 2; i < N; i++) {
+                    const nextFib = sequence[i - 1] + sequence[i - 2];
+                    sequence.push(nextFib);
+                }
+            }
+
+            // 결과 출력 포맷팅: '0, 1, 1, 2, 3...' 형태로 합치기
+            const resultText = sequence.join(', ');
+            document.getElementById('fibList').textContent = resultText;
+        }
+    </script>
+</body>
+</html>
