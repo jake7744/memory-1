@@ -1,0 +1,89 @@
+{
+  "tasks": [
+    {
+      "id": "20260709091805-5736",
+      "title": "Logo system documented with color codes",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-07-09T09:18:05.305Z",
+      "status": "done",
+      "sessionDir": "2026-07-09T09-17",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-09T09-17/_report.md\n- Designer: Create a professional logo for Matrixonic using the Deep Navy Blue (#0A1932) the\n\nCEO 종합 요점: 🎨 Designer: 작업 시작합니다.\n<create_file path=\"$HOME/Downloads/지식메모리/_company/matrixonic-logo-brief.md\">\n# Matrixonic Logo Design Brief\n\n**Target Use**\n- Primary brand identity\n- YouTube channel icon\n- Mar",
+      "completedAt": "2026-07-09T09:18:05.348Z"
+    },
+    {
+      "id": "20260709091805-chmm",
+      "title": "SVG version validated for web use",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-07-09T09:18:05.314Z",
+      "status": "done",
+      "sessionDir": "2026-07-09T09-17",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-09T09-17/_report.md\n- Designer: Create a professional logo for Matrixonic using the Deep Navy Blue (#0A1932) the\n\nCEO 종합 요점: 🎨 Designer: 작업 시작합니다.\n<create_file path=\"$HOME/Downloads/지식메모리/_company/matrixonic-logo-brief.md\">\n# Matrixonic Logo Design Brief\n\n**Target Use**\n- Primary brand identity\n- YouTube channel icon\n- Mar",
+      "completedAt": "2026-07-09T09:18:05.356Z"
+    },
+    {
+      "id": "20260709091805-dwdr",
+      "title": "PNG version exported with transparent background",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-07-09T09:18:05.322Z",
+      "status": "done",
+      "sessionDir": "2026-07-09T09-17",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-09T09-17/_report.md\n- Designer: Create a professional logo for Matrixonic using the Deep Navy Blue (#0A1932) the\n\nCEO 종합 요점: 🎨 Designer: 작업 시작합니다.\n<create_file path=\"$HOME/Downloads/지식메모리/_company/matrixonic-logo-brief.md\">\n# Matrixonic Logo Design Brief\n\n**Target Use**\n- Primary brand identity\n- YouTube channel icon\n- Mar",
+      "completedAt": "2026-07-09T09:18:05.364Z"
+    },
+    {
+      "id": "20260709091805-zqz5",
+      "title": "Size tested at thumbnail/icon size and full bleed scale",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-07-09T09:18:05.328Z",
+      "status": "done",
+      "sessionDir": "2026-07-09T09-17",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-09T09-17/_report.md\n- Designer: Create a professional logo for Matrixonic using the Deep Navy Blue (#0A1932) the\n\nCEO 종합 요점: 🎨 Designer: 작업 시작합니다.\n<create_file path=\"$HOME/Downloads/지식메모리/_company/matrixonic-logo-brief.md\">\n# Matrixonic Logo Design Brief\n\n**Target Use**\n- Primary brand identity\n- YouTube channel icon\n- Mar",
+      "completedAt": "2026-07-09T09:18:05.372Z"
+    },
+    {
+      "id": "20260709091805-a783",
+      "title": "Brand tone verified against existing style guidance from `~/Downloads/지식메모리/_company/matrixonic-brand.md`",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-07-09T09:18:05.339Z",
+      "status": "done",
+      "sessionDir": "2026-07-09T09-17",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-09T09-17/_report.md\n- Designer: Create a professional logo for Matrixonic using the Deep Navy Blue (#0A1932) the\n\nCEO 종합 요점: 🎨 Designer: 작업 시작합니다.\n<create_file path=\"$HOME/Downloads/지식메모리/_company/matrixonic-logo-brief.md\">\n# Matrixonic Logo Design Brief\n\n**Target Use**\n- Primary brand identity\n- YouTube channel icon\n- Mar",
+      "completedAt": "2026-07-09T09:18:05.379Z"
+    }
+  ]
+}

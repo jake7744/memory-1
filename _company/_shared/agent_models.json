@@ -1,0 +1,12 @@
+{
+  "ceo": "hf.co/tvall43/Qwen3.6-14B-A3B-FableVibes-GGUF:Q4_K_M",
+  "youtube": "hf.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF:Q8_0",
+  "instagram": "jay:latest",
+  "designer": "hf.co/stefans71/frontend-design-expert-8b:Q4_K_M",
+  "developer": "coder-extract:latest",
+  "business": "hf.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF:Q8_0",
+  "secretary": "coder-extract:latest",
+  "editor": "hf.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF:Q8_0",
+  "writer": "hf.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF:Q8_0",
+  "researcher": "hf.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF:Q8_0"
+}
