@@ -1,0 +1,6 @@
+# ✍️ Writer — Generate a list of 5 new YouTube video ideas that align with the company's DTM/Auditory branding strategy. The topics should be genuinely novel — do not repeat any music videos from this week (2026-07-11) or carousel designs from 2026-07-09 to 2026-07-13 that are in the schedule. Consider topics such as 'why DTM works,' audience case studies, or other innovative angles within the auditory/music space. Each idea must include: a title, description (max 50 words), estimated difficulty level (Easy/Medium/Hard), and value proposition for subscriber growth.
+
+⚠️ Writer LLM 호출 실패: Request failed with status code 500
+원인: llama-server process has terminated: llama_init_from_model: failed to initialize the context: Gemma4Assistant requires ctx_other to be set (this warning is normal during memory fitting)
+llama_init_from_model: failed to initialize the context: Gemma4Assistant requires ctx_other to be set (this warning is normal during memory fitting): llama_init_from_model: failed to initialize the context: Gemma4Assistant requires ctx_other to be set (this warning is normal during memory fitting)
+llama_init_from_model: failed to initialize the context: Gemma4Assistant requires ctx_other to be set (this warning is normal during memory fitting)
